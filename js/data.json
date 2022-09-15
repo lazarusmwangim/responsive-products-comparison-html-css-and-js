@@ -1,0 +1,262 @@
+[
+    {
+        "header" : {
+            "image_source": "img/karu_16.avif",
+            "alt": "Ooni Karu 16 Multi-Fuel Pizza Oven",
+            "name": "Karu 16 Multi-Fuel Pizza Oven",
+            "price": "$799"
+        },
+        "body": {
+            "fuel_type" : "Wood, Charcoal, Propane Gas &amp; Natural Gas (with optional adaptors)",
+            "pizza_size": "img/icon_16inch_300x.avif",
+            "unboxed_size": {
+                "metric": "81.5 x 50 x 83.7cm",
+                "imperial": "32 x 19.6 x 33&Prime;;"
+            },
+            "weight": {
+                "metric": "28.4kg",
+                "imperial": "62.6lbs"
+            },
+            "heat_time": "15mins",
+            "max_temp": {
+                "metric": "500&deg;C",
+                "imperial": "950&deg;F"
+            },
+            "propane_comp": "Yes,",
+            "natural_comp": "Yes,",
+            "material": "Powder coated carbon steel & Brushed 304, 409, 430, Stainless steel",
+            "pizza_stone_type": {
+                "metric": "15mm cordierite stone",
+                "imperial": "0.6&Prime; cordierite stone"
+            },
+            "pizza_stone_size": {
+                "metric": "42 x 62cm",
+                "imperial": "16.7 x 24.5&Prime;"
+            },
+            "opening_height": {
+                "metric": "145mm",
+                "imperial": "5.71&Prime;"
+            },
+            "fuel_consumption": {
+                "metric": "2.2kg for 10 pizzas",
+                "imperial": "4.9lbs for 10 pizzas"
+            },
+            "gas_consumption": {
+                "metric": "0.5 kg/hr",
+                "imperial": "1.1 lb/hr"
+            },
+            "kw": "7.3kw (25000 BTU)",
+            "outdoor_use_only": "img/icon_Tick.svg",
+            "with_burner": " with gas burner",
+            "with_conversion_kit": ""
+        }
+    },
+    {
+        "header" : {
+            "image_source": "img/karu_12.avif",
+            "alt": "Ooni Karu 12 Multi-Fuel Pizza Oven",
+            "name": "Karu 12 Multi-Fuel Pizza Oven",
+            "price": "$399"
+        },
+        "body": {
+            "fuel_type" : "Wood, Charcoal &amp; Propane Gas (with optional adaptor)",
+            "pizza_size": "img/icon_12inch_300x.avif",
+            "unboxed_size": {
+                "metric": "77 x 40 x 80cm",
+                "imperial": "30 x 15 x 31&Prime;"
+            },
+            "weight": {
+                "metric": "12kg",
+                "imperial": "26.5lbs"
+            },
+            "heat_time": "15mins",
+            "max_temp": {
+                "metric": "500&deg;C",
+                "imperial": "950&deg;F"
+            },
+            "propane_comp": "Yes,",
+            "natural_comp": "img/icon_Cross.svg",
+            "material": "Brushed 430 stainless steel",
+            "pizza_stone_type": {
+                "metric": "15mm cordierite stone",
+                "imperial": "0.6&Prime; cordierite stone"
+            },
+            "pizza_stone_size": {
+                "metric": "33 x 33cm",
+                "imperial": "13 x 13&Prime;"
+            },
+            "opening_height": {
+                "metric": "99mm",
+                "imperial": "3.89&Prime;"
+            },
+            "fuel_consumption": {
+                "metric": "1.5kg for 10 pizzas",
+                "imperial": "3.3lbs for 10 pizzas"
+            },
+            "gas_consumption": {
+                "metric": "0.34 kg/hr",
+                "imperial": "0.74 lb/hr"
+            },
+            "kw": "5.0kw (17060.7 BTU)",
+            "outdoor_use_only": "img/icon_Tick.svg",
+            "with_burner": " with gas burner",
+            "with_conversion_kit": ""
+        }
+    },
+    {
+        "header" : {
+            "image_source": "img/koda_16.avif",
+            "alt": "Ooni Koda 16 Gas Powered Pizza Oven",
+            "name": "Koda 16 Gas Powered Pizza Oven",
+            "price": "$599"
+        },
+        "body": {
+            "fuel_type" : "Propane Gas &amp; Natural Gas (with optional conversion kit)",
+            "pizza_size": "img/icon_16inch_300x.avif",
+            "unboxed_size": {
+                "metric": "63.4 x 58.9 x 35cm",
+                "imperial": "24.96 x 23.2 x 14.65&Prime;"
+            },
+            "weight": {
+                "metric": "18.2kg",
+                "imperial": "40.1lbs"
+            },
+            "heat_time": "20mins",
+            "max_temp": {
+                "metric": "500&deg;C",
+                "imperial": "950&deg;F"
+            },
+            "propane_comp": "img/icon_Tick.svg",
+            "natural_comp": "Yes, ",
+            "material": "Powder-coated carbon steel",
+            "pizza_stone_type": {
+                "metric": "15mm cordierite stone",
+                "imperial": "0.6&Prime; cordierite stone"
+            },
+            "pizza_stone_size": {
+                "metric": "41 x 41cm",
+                "imperial": "16 x 16&Prime;"
+            },
+            "opening_height": {
+                "metric": "111mm",
+                "imperial": "4.37&Prime;"
+            },
+            "fuel_consumption": {
+                "metric": "0.6kg for 10 pizzas",
+                "imperial": "1.3lbs for 10 pizzas"
+            },
+            "gas_consumption": {
+                "metric": "0.59 kg/hr",
+                "imperial": "1.3 lb/hr"
+            },
+            "kw": "8.49kw (29000 BTU)",
+            "outdoor_use_only": "img/icon_Tick.svg",
+            "with_burner": " with gas burner",
+            "with_conversion_kit": " with conversion kit"
+        }
+    },
+    {
+        "header" : {
+            "image_source": "img/koda_12.avif",
+            "alt": "Ooni Koda 12 Gas Powered Pizza Oven",
+            "name": "Koda 12 Gas Powered Pizza Oven",
+            "price": "$399"
+        },
+        "body": {
+            "fuel_type" : "Propane Gas",
+            "pizza_size": "img/icon_12inch_300x.avif",
+            "unboxed_size": {
+                "metric": "40 x 29.5 x 63cm",
+                "imperial": "15.7 x 11.6 x 24.8&Prime;"
+            },
+            "weight": {
+                "metric": "9.25kg",
+                "imperial": "20.4lbs"
+            },
+            "heat_time": "15mins",
+            "max_temp": {
+                "metric": "500&deg;C",
+                "imperial": "950&deg;F"
+            },
+            "propane_comp": "img/icon_Tick.svg",
+            "natural_comp": "img/icon_Cross.svg",
+            "material": "Powder-coated carbon steel",
+            "pizza_stone_type": {
+                "metric": "10mm cordierite stone",
+                "imperial": "0.4&Prime; cordierite stone"
+            },
+            "pizza_stone_size": {
+                "metric": "33 x 33cm",
+                "imperial": "13 x 13&Prime;"
+            },
+            "opening_height": {
+                "metric": "82mm",
+                "imperial": "3.22&Prime;"
+            },
+            "fuel_consumption": {
+                "metric": "0.4kg for 10 pizzas",
+                "imperial": "0.9lbs for 10 pizzas"
+            },
+            "gas_consumption": {
+                "metric": "0.28 kg/hr",
+                "imperial": "0.63 lb/hr"
+            },
+            "kw": "4kWh (13649 BTU)",
+            "outdoor_use_only": "img/icon_Tick.svg",
+            "with_burner": "",
+            "with_conversion_kit": ""
+        }
+    },
+    {
+        "header" : {
+            "image_source": "img/fyra_12.avif",
+            "alt": "Ooni Fyra 12 Wood Pellet Pizza Oven",
+            "name": "Fyra 12 Wood Pellet Pizza Oven",
+            "price": "$349"
+        },
+        "body": {
+            "fuel_type" : "Wood Pellets",
+            "pizza_size": "img/icon_12inch_300x.avif",
+            "unboxed_size": {
+                "metric": "74.2 x 39.4 x 72.6cm",
+                "imperial": "29.2 x 15.1 x 28.6&Prime;"
+            },
+            "weight": {
+                "metric": "10kg",
+                "imperial": "22lbs"
+            },
+            "heat_time": "15mins",
+            "max_temp": {
+                "metric": "500&deg;C",
+                "imperial": "950&deg;F"
+            },
+            "propane_comp": "img/icon_Cross.svg",
+            "natural_comp": "img/icon_Cross.svg",
+            "material": "Powder-coated carbon steel",
+            "pizza_stone_type": {
+                "metric": "10mm cordierite stone",
+                "imperial": "0.4&Prime; cordierite stone"
+            },
+            "pizza_stone_size": {
+                "metric": "33 x 33cm",
+                "imperial": "13 x 13&Prime;"
+            },
+            "opening_height": {
+                "metric": "85mm",
+                "imperial": "3.34&Prime;"
+            },
+            "fuel_consumption": {
+                "metric": "1.13kg for 10 pizzas",
+                "imperial": "2.5lbs for 10 pizzas"
+            },
+            "gas_consumption": {
+                "metric": "-",
+                "imperial": "-"
+            },
+            "kw": "-",
+            "outdoor_use_only": "img/icon_Tick.svg",
+            "with_burner": "",
+            "with_conversion_kit": ""
+        }
+    }
+]

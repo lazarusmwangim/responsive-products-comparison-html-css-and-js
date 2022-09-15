@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery-2.1.4.js"></script>
+    <script type='text/javascript' src="js/script.js"></script>
+    <title>Pizza Ovens Comparison</title>
+</head>
+
+<body>
+    <style>
+        .metric {
+            display: none;
+        }
+    </style>
+    <article class="site-page" data-template-page>
+        <header class="page-masthead">
+            <h1 class="page-title">
+                Oven Comparison
+            </h1>
+        </header>
+
+
+        <div class="text-center">
+            Compare our pizza oven range and find the one that suits your cooking style. We recommend you start by
+            choosing which fuel type you’d like to use.
+        </div>
+
+    </article>
+    <div class="comparison-container">
+        <div id="comparison">
+            <div id="units">
+                <strong class="metric_label">Imperial</strong>
+                <label class="switch">
+                    <span id="unit_label" class="label-text">Imperial / Metric</span>
+                    <input id="unit_check" aria-labelledby="unit_label" data-default-value="imperial" type="checkbox"
+                        onclick="units()">
+                    <span class="slider round"></span>
+                </label>
+                <strong class="metric_label">Metric</strong>
+            </div>
+
+            <div id="oven_table_wrapper">
+                <table id="oven_table" align="center" cellpadding=10>
+                    <thead>
+                        <!-- OVEN IMAGES -->
+                        <tr id="oven_table_images">
+                            <td></td>
+                        </tr>
+
+                        <!-- OVEN INFO -->
+                        <tr id="oven_table_head">
+                            <td class="oven-head"></td>
+                        </tr>
+                    </thead>
+
+                    <!-- COMPARISON BODY -->
+                    <tbody>
+                        <!-- FUEL TYPE -->
+                        <tr id="fuel_type">
+                            <td>
+                                <p><img src="img/icon_Default_Fuel.svg" alt="" /> <span>Fuel type</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- PIZZA SIZE -->
+                        <tr id="pizza_size">
+                            <td>
+                                <p><img src="img/icon_Pizza_Size.svg" alt="" /> <span>Pizza size</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- UNBOXED SIZE -->
+                        <tr id="unboxed_size">
+                            <td>
+                                <p><img src="img/icon_Unboxed_Size.svg" alt="" /> <span>Unboxed size</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- WEIGHT -->
+                        <tr id="o_weight">
+                            <td>
+                                <p><img src="img/icon_Weight.svg" alt="" /> <span>Weight</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- HEAT UP TIME -->
+                        <tr id="heat_time">
+                            <td>
+                                <p><img src="img/icon_Heat_Time.svg" alt="" /> <span>Heat up time</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- MAX TEMPERATURE -->
+                        <tr id="max_temp">
+                            <td>
+                                <p><img src="img/icon_Max_Temp.svg" alt="" /><span>Max temperature</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- PROPANE GAS COMPATIBLE -->
+                        <tr id="propane_comp">
+                            <td>
+                                <p><img src="img/icon_Propane_Gas.svg" alt="" /> <span>Propane gas compatible</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- Natural gas compatible -->
+                        <tr id="natural_comp">
+                            <td>
+                                <p><img src="img/icon_Natural_Gas.svg" alt="" /> <span>Natural gas compatible</span></p>
+                            </td>
+                        </tr>
+
+
+                        <!-- MATERIAL -->
+                        <tr id="o_material">
+                            <td>
+                                <p><img src="img/icon_Material.svg" alt="" /> <span>Material</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- PIZZA STONE TYPE -->
+                        <tr id="pizza_stone_type">
+                            <td>
+                                <p><img src="img/icon_Pizza_Stone_Type.svg" alt="" /> <span>Pizza stone type</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- PIZZA STONE SIZE -->
+                        <tr id="pizza_stone_size">
+                            <td>
+                                <p><img src="img/icon_Pizza_Stone_Size.svg" alt="" /> <span>Pizza stone size</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- OPENING HEIGHT -->
+                        <tr id="opening_height">
+                            <td>
+                                <p><img src="img/icon_Opening_Height.svg" alt="" /> <span>Opening height</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- FUEL CONSUMPTION -->
+                        <tr id="fuel_consumption">
+                            <td>
+                                <p><img src="img/icon_Default_Fuel_Burn.svg" alt="" /> <span>Fuel consumption*</span>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- GAS CONSUMPTION -->
+                        <tr id="gas_consumption">
+                            <td>
+                                <p><img src="img/icon_Propane_Gas.svg" alt="" /> <span>Gas consumption*</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- KW (BTU) -->
+                        <tr id="kw">
+                            <td>
+                                <p><img src="img/icon_BTU.svg" alt="" /> <span>kW (BTU)*</span></p>
+                            </td>
+
+                        </tr>
+
+                        <!-- OUTDOOR USE ONLY -->
+                        <tr id="outdoor_use_only">
+                            <td>
+                                <p><img src="img/icon_Outdoor_Use_Only.svg" alt="" /> <span>Outdoor use only</span></p>
+                            </td>
+                        </tr>
+
+                        <!-- VIEW PRODUCT BUTTON -->
+                        <tr id="view_product">
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <p id="table_caption"><small><em>*Estimates</em></small></p>
+        </div>
+    </div>
+</body>
+
+</html>
